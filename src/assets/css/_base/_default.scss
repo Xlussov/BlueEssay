@@ -59,6 +59,7 @@ body {
 
 
 .button-blue{
+    display: flex;
     .button{
         border-radius: 3px;
         border: solid 1px #1088c7;
@@ -68,6 +69,7 @@ body {
 }
 
 .button-orange{
+    display: flex;
     .button{
         border-radius: 3px;
         border: solid 1px #f75e2e;
@@ -83,4 +85,8 @@ body {
         letter-spacing: 0.24px;
         text-transform: uppercase;
     }
+}
+
+.blue{
+    color:#03a9f4;
 }
