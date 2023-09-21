@@ -1,0 +1,18 @@
+header{
+    background-color: $bluePrim;
+    padding: 15px;
+    .navbar, ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    ul li {
+        margin: 0px 20px;
+        a {
+            @include textStyle(12,600,Poppins,#fff);
+            text-transform: uppercase;
+            letter-spacing: 0.24px;
+        }
+    }
+}
+

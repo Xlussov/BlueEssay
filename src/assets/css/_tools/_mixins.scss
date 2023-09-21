@@ -1,0 +1,18 @@
+$maxWidth: 1200;
+$none: normal;
+@mixin fsz($pcSize) {
+    $mobSize: $pcSize / 1.45; 
+    $addSize: $pcSize - $mobSize;
+    $maxWidth: $maxWidth - 320;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+
+@mixin textStyle($pcSize, $fweght, $ffamily ,$fcolor){
+    font-family: $ffamily;
+    font-weight: $fweght;
+    color: $fcolor;
+    $mobSize: $pcSize / 1.45; 
+    $addSize: $pcSize - $mobSize;
+    $maxWidth: $maxWidth - 320;
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}

@@ -1,0 +1,86 @@
+body {
+    h1 {
+        // font-family: 'Poppins';
+        // font-weight: 700;
+        // color: #1e2021;
+        // @include fsz(35);
+        @include textStyle(35,700,Poppins, #1e2021);
+    
+    }
+    
+    h2 {
+        // @include fsz(33);
+        // font-family: 'Poppins';
+        // font-weight: 500;
+        // color:#323538;
+        @include textStyle(33,500,Poppins, #323538);
+    }
+    
+    h3 {
+        // @include fsz(27);
+        // font-family: 'Poppins';
+        // font-weight: 500;
+        // color: #1e2021;
+        @include textStyle(27,500,Poppins, #1e2021);
+    }
+    
+    h4 {
+        // @include fsz(22);
+        // font-family: 'Poppins';
+        // font-weight: 500;
+        // color: #1e2021;
+        @include textStyle(22,500,Poppins, #1e2021);
+    }
+    
+    h5 { 
+        // @include fsz(17);
+        // font-family: 'Poppins';
+        // font-weight: 500;
+        // color: #1e2021;
+        @include textStyle(17,500,Poppins, #1e2021);
+    }
+    
+    h6 {
+        // @include fsz(15);
+        // font-family: 'Poppins';
+        // font-weight: 500;
+        // color: #1e2021;
+        @include textStyle(15,500,Poppins, #1e2021);
+    }
+    
+    p, .text {
+        // @include fsz(14);
+        // font-family: 'Poppins';
+        // font-weight: 400;
+        // color: #51555a;
+        @include textStyle(14,400,Poppins, #1e2021);
+    }
+}
+
+
+.button-blue{
+    .button{
+        border-radius: 3px;
+        border: solid 1px #1088c7;
+        background-color: #0287c3;
+        padding: 15px 30px;
+    }
+}
+
+.button-orange{
+    .button{
+        border-radius: 3px;
+        border: solid 1px #f75e2e;
+        background-color: #f75e2e;
+        padding: 15px 30px;
+    }
+    
+}
+
+.button {
+    p{
+        @include textStyle(12,600,Poppins,#fff);
+        letter-spacing: 0.24px;
+        text-transform: uppercase;
+    }
+}
