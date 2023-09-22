@@ -1,4 +1,6 @@
 .baner {
+    background-color: #e7f7fe;
+    background-image: url(../img/cloud.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -9,8 +11,6 @@
     .baner__info{
         display: flex;
         flex-direction: column;
-        // justify-content: space-between;
-
         >p{
             border-top: 2px solid transparent;
             border-image: linear-gradient(to right, #f75e2e 10%, #32353823 10%);

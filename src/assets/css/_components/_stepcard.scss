@@ -1,0 +1,25 @@
+.step-card {
+    padding: 90px 0px;
+    text-align: center;
+    .col-3{
+        padding: 30px 40px;
+        img{
+            margin-bottom: 30px;
+        }
+        h6{
+            margin-bottom: 20px;
+        }
+        p{
+            line-height: 1.54;
+        }
+    }
+    .col-3:not(:last-child){
+        position: relative;
+        &::before{
+            content: url(../img/arrow_ourSimple.png);
+            position: absolute;
+            right: -15px;  
+        }
+    }
+    
+}
