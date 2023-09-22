@@ -87,6 +87,15 @@ body {
     }
 }
 
+.sub-title{
+    @include textStyle(15,normal,Poppins,#0287c3);
+    margin-bottom: 30px;
+}
+
 .blue{
     color:#03a9f4;
+}
+
+.white{
+    color:#fff;
 }
