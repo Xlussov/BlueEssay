@@ -1,0 +1,12 @@
+.discount{
+    padding: 55px 0px 350px;
+    background-color: $bluePrim;
+    background-image: url(../img/bg3withrocket.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    .invetory{
+        @include textStyle(20,500,Poppins,#fff);
+        margin-top: 30px;
+    }
+}

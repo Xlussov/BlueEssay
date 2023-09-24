@@ -61,20 +61,32 @@ body {
 .button-blue{
     display: flex;
     .button{
+        transition: 250ms all ease-in-out;
         border-radius: 3px;
         border: solid 1px #1088c7;
         background-color: #0287c3;
         padding: 15px 30px;
+        &:hover{
+            transition: 250ms all ease-in-out;
+            background-color: #c0e9fc;
+            border: solid 1px #c0e9fc;
+        }
     }
 }
 
 .button-orange{
     display: flex;
     .button{
+        transition: 250ms all ease-in-out;
         border-radius: 3px;
         border: solid 1px #f75e2e;
         background-color: #f75e2e;
         padding: 15px 30px;
+        &:hover{
+            transition: 250ms all ease-in-out;
+            background-color: #fa9e82;
+            border: solid 1px #fa9e82;
+        }
     }
     
 }
@@ -102,4 +114,8 @@ body {
 
 .ttu{
     text-transform: uppercase;
+}
+
+.tac{
+    text-align: center;
 }
