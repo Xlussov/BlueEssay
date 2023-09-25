@@ -154,3 +154,23 @@
     }
 }
 
+@media screen and (max-width:991px){
+    .slider{
+        .sale{
+            >.row{
+                top: -496px;
+                margin-bottom: -450px;
+            }
+        }
+        .slider-block{
+            .slider-block__wraper{
+                &::before{
+                    left: -50px;
+                }
+                &::after{
+                    right: -50px;
+                }
+            }
+        }
+    }
+}

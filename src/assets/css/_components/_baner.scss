@@ -70,4 +70,31 @@
     }
 }
 
+@media screen and (max-width:1200px) {
+    .baner{
+        padding-top: 70px;
+        height: 560px;
+    }
+}
+
+
+@media screen and (max-width:991px){
+    .baner form .opt p {
+        margin-top: 10px;
+    }
+    .baner form{
+        padding: 5px 0px 15px;
+        top: -300px;
+
+    }
+    .baner .img_girl img{
+        top: -280px;
+        width: 250px;
+        right: -490px;
+    }
+    .baner{
+        height: 500px;
+    }
+}
+
 

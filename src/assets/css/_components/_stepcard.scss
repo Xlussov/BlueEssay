@@ -29,3 +29,13 @@
         }
     }
 }
+
+@media screen and (max-width:991px){
+    .step-card{
+        .items:nth-child(2){
+            &::before{
+                background-image: none;
+            }
+        }
+    }
+}
