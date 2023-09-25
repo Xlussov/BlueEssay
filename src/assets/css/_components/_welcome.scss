@@ -11,13 +11,16 @@
         align-items: flex-end;
         padding-top: 90px;
         img{
-            width: 350px;
+            width: 55%;
         }
     }
 
     .text{
         margin-bottom: 30px;
         line-height: 1.57;
+    }
+    .text:last-child{
+        margin-bottom: 0px;
     }
     .fff {
       padding-left: 40px;  

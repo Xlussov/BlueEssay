@@ -1,7 +1,7 @@
 .step-card {
     padding: 90px 0px;
     text-align: center;
-    .col-3{
+    .items{
         margin-top: 55px;
         padding: 30px 40px;
         position: relative;
@@ -15,7 +15,7 @@
             line-height: 1.54;
         }
     }
-    .col-3:not(:last-child){
+    .items:not(:last-child){
         position: relative;
         &::before{
             content: '';
