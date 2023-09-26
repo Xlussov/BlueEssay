@@ -165,10 +165,10 @@
         .slider-block{
             .slider-block__wraper{
                 &::before{
-                    left: -50px;
+                    left: 0px;
                 }
                 &::after{
-                    right: -50px;
+                    right: 0px;
                 }
             }
         }

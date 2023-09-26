@@ -1,0 +1,138 @@
+footer{
+    background-color: $bluePrim;
+    .navigation{
+        padding: 15px 0px 30px;
+        nav{
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav, ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            li{
+                margin: 0px 20px;
+                a{
+                    @include textStyle(12,500,Poppins,#fff);
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    hr{
+        opacity: 0.5;
+        border-bottom: 1px solid #fff;
+    }
+    .quation{
+        padding: 50px 0px;
+        p{
+            @include textStyle(16,500,Poppins,#fff);
+            margin-bottom: 35px;
+        }
+        ul li {
+            a{
+                @include textStyle(13,400,Poppins,#fff);
+                line-height: 2.15;
+            }
+        }
+    }
+    .info{
+        padding: 40px 0px;
+        p{
+            @include textStyle(13,500,Poppins,#fff);
+        }
+        img{
+            float: left;
+            margin-right: 25px;
+            width: 40px;
+        }
+        .tel{
+            @include textStyle(16,600,Poppins,#fff)
+        }
+        .title{
+           margin-bottom: 10px;
+        }
+        .copyright{
+            line-height: 1.62;
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon{
+                &:not(last){
+                    margin-right: 15px;
+                }
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                border: 1px solid #fff;
+                &::after{
+                    position: relative;
+                    left: 9px;
+                    top: 7px;
+                }
+                &:hover{
+                    transition: all 200ms ease-in-out;
+                    background-color:#0287c3;
+                    border: 1px solid #0287c3;
+                }
+            }
+            .facebook::after{
+                transition: all 200ms ease-in-out;
+                content: url(../img/facebook.png);
+            }
+            .twitter:after{
+                transition: all 200ms ease-in-out;
+                content: url(../img/twitter.png);
+                left: 8px;
+                top: 9px;
+            }
+            .pinterest:after{
+                transition: all 200ms ease-in-out;
+                content: url(../img/pinterest.png);
+            }
+            .google:after{
+                transition: all 200ms ease-in-out;
+                content: url(../img/google.png);
+                left: 5px;
+                top: 7px;
+            }
+        }
+    }
+}
+
+ 
+@media screen and (max-width:1400px){
+    footer{
+        .navigation{
+            nav, ul{
+                li{
+                    margin: 0px 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px){
+    footer{
+        .info{
+            .icons{
+                justify-content: flex-start;
+            }
+            .item{
+                margin-bottom: 40px;
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
