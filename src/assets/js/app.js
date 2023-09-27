@@ -1,3 +1,0 @@
-fun = (a) => {
-    return a;
-}
