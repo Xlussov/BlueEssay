@@ -102,8 +102,15 @@ footer{
         }
     }
 }
+@media screen and (min-width:766px) and (max-width:991px){
+    footer{
+        .big-logo {
+            display: none;
 
- 
+        }
+    }
+}
+
 @media screen and (max-width:1400px){
     footer{
         .navigation{
@@ -142,6 +149,7 @@ footer{
             }
         }
         .logo {
+            display: flex;
             margin-bottom: 20px;
             justify-content: center;
             img{
@@ -164,7 +172,8 @@ footer{
 
 @media screen and (max-width:576px){
     footer{
-        .logo {
+        .big-logo {
+            display: flex;
             margin-bottom: 20px;
             justify-content: center;
             img{
@@ -186,3 +195,11 @@ footer{
 }
 
 
+@media screen and (width:768px){
+    footer{
+        .big-logo {
+            display: none;
+
+        }
+    }
+}
