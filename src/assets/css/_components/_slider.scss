@@ -107,7 +107,7 @@
                             &::after{
                                 content: url(../img/Balloon.png);
                                 position: absolute;
-                                right: -50px;
+                                // right: -50px;
                                 bottom: -10px;
                             }
                         }
@@ -139,7 +139,7 @@
             }
             .text{
                 margin: 0 auto;
-                width: 600px;
+                width: 60%;
                 margin-bottom: 30px;
                 line-height: 1.57;
             }
@@ -174,3 +174,49 @@
         }
     }
 }
+
+@media screen and (max-width:768px){
+    .discount-sale{
+        .italic{
+            &::after{
+                right: -40px;
+            }
+        }
+    }
+    .slider{
+        .slider-block{
+            .slider-block__wraper{
+                &::before{
+                    left: 30px;
+                }
+                &::after{
+                    right: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .slider{
+        .discount-sale{
+            .italic{
+                &::after{
+                    right: -25px;
+                }
+            }
+        }
+         .sale{
+             >.row{
+                 .wraper{
+                     .pages-sale{
+                         padding: 0px;
+                     }
+                 }
+            }
+         }
+    }
+}
+
+

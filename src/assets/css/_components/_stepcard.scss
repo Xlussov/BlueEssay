@@ -39,3 +39,15 @@
         }
     }
 }
+
+
+@media screen and (max-width:768px){
+    .step-card{
+        .items:nth-child(1),.items:nth-child(3){
+            &::before{
+                background-image: none;
+            }
+        }
+    }
+}
+

@@ -131,8 +131,58 @@ footer{
 }
 
 
+@media screen and (max-width:768px){
+    footer{
+        .navigation{
+            nav, ul{
+                justify-content: center;
+                li{
+                    margin: 0px 10px;
+                }
+            }
+        }
+        .logo {
+            margin-bottom: 20px;
+            justify-content: center;
+            img{
+                width: 40%;
+            }
+        }
+    }
+    .quation{
+        div{
+            padding-left: 30px;
+            p{
+                margin-bottom: 20px;
+            }
+            ul{
+                margin-bottom: 50px;
+            }
+       }
+    }
+}
 
-
-
+@media screen and (max-width:576px){
+    footer{
+        .logo {
+            margin-bottom: 20px;
+            justify-content: center;
+            img{
+                width: 40%;
+            }
+        }
+    }
+    .info{
+        .items:not(last){
+            margin-bottom: 30px;
+        }
+    }
+    nav{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
 
 

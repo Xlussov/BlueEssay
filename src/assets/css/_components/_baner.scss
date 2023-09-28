@@ -15,7 +15,7 @@
             border-top: 2px solid transparent;
             border-image: linear-gradient(to right, #f75e2e 10%, #32353823 10%);
             border-image-slice: 1;
-            width: 500px;
+            width: 55%;
             padding-top: 40px;
             margin-bottom: 30px;
             line-height: 1.5;
@@ -83,17 +83,30 @@
     }
     .baner form{
         padding: 5px 0px 15px;
-        top: -300px;
+        top: 0px;
 
     }
     .baner .img_girl img{
-        top: -280px;
+        top: 15px;
         width: 250px;
-        right: -480px;
+        right: -30px;
     }
     .baner{
         height: 500px;
     }
 }
+
+
+@media screen and (max-width:768px){
+    .baner form{
+        padding: 5px 0px 15px;
+        top: 50px;
+        button{
+            margin-top: 10px;
+        }
+    }
+}
+
+
 
 
